@@ -37,6 +37,7 @@ body {
   border: 1px solid grey;
 }
 
+
 .header button {
   width: 70px;
   height: 87px;
@@ -50,4 +51,46 @@ body {
 .AddGame {
   flex: 70%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.game{
+  width: 500px;
+  height:50px;
+  display: flex;
+  color:white;
+  margin: 15px;
+}
+
+.game .content{
+  flex: 80%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game .content span{
+  display:grid;
+  place-items: center;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  border-right: none;
+  background-color: tomato;
+}
+
+.game button {
+  flex: 20%;
+  height: 100%;
+  border: none;
+  background-color: lightseagreen;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: white;
+  cursor: pointer;
 }
